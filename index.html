@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Animado</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<section class="landing">
+    <div class="menu">
+        <nav class="bar" onmouseover="mostrarTexto()" onmouseout="ocultarTexto()">
+            <div class="separador">
+                <section class="icono">
+                    <button id="toggleMenu">_<br>_<br>_</button>
+                </section>
+                <Section class="espacio">
+                    <h2></h2>
+                </Section>
+            </div>
+            
+            <button class="separador">
+                <img src="casa.png">
+                <span class="texto">Home</span>
+            </button>
+            <button>
+                <img src="avatar.png">
+                <span class="texto">User</span>
+            </button> 
+            <button>
+                <img src="grafico-circular.png">
+                <span class="texto">Data</span>
+            </button> 
+            <button>
+                <img src="carpeta.png">
+                <span class="texto">File</span>
+            </button> 
+            <button>
+                <img src="bolsa-de-la-compra.png">
+                <span class="texto">Services</span>
+            </button> 
+            <button>
+                <img src="ocurrencia.png">
+                <span class="texto">Info</span>
+            </button> 
+            <button>
+                <img src="tarjeta-de-identificacion.png">
+                <span class="texto">ID</span>
+            </button> 
+            <button>
+                <img src="periodico.png">
+                <span class="texto">News</span>
+            </button> 
+            <button>
+                <img src="bolsa-de-dinero.png">
+                <span class="texto">Credit</span>
+            </button> 
+            <button>
+                <img src="customer-support_2951105.png">
+                <span class="texto">Support</span>
+            </button>  
+            <button>
+                <img src="configuraciones.png">
+                <span class="texto">Settings</span>
+            </button> 
+        </nav>
+    </div>
+    <div id="flashcard">
+        <div class="face front">
+            <img src="stoic.png" alt="Foto de la persona" id="personaImagen"/>
+            <h3>Se un estoico</h3>
+        </div>
+
+        <div class="face back">
+            <h3>Siguenos en redes sociales</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit proin dui nulla auctor faucibus, imperdiet sapien consequat eleifend diam. Dui dictum diam feugiat sem felis morbi primis, libero justo torquent himenaeos mattis habitasse, cubilia fames faucibus tortor consequat velit. Ridiculus eleifend vestibulum nibh aenean magnis per potenti, non duis tristique cum ac vitae semper, diam natoque himenaeos hendrerit accumsan eget.</p>
+            <div id="icon-container" class="hidden">
+                <a href="direccion_web_1"><img src="instagram.png" alt="Icono 1"></a>
+                <a href="direccion_web_2"><img src="whatsapp.png" alt="Icono 2"></a>
+                <a href="direccion_web_3"><img src="youtube.png" alt="Icono 3"></a>
+            </div>
+        </div>
+
+           
+        
+    </div>
+</section>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
